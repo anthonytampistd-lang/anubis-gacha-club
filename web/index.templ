@@ -117,7 +117,7 @@ templ StaticHappy(localizer *localization.SimpleLocalizer) {
 		<img
 			style="display:none;"
 			style="width:100%;max-width:256px;"
-			src={ "/.within.website/x/cmd/anubis/static/img/happy.webp?cacheBuster=" +
+			src={ "/.within.website/x/cmd/anubis/static/img/happy.jpeg?cacheBuster=" +
     anubis.Version }
 		/>
 		<p>{ localizer.T("static_check_endpoint") }</p>
@@ -147,7 +147,7 @@ templ bench(localizer *localization.SimpleLocalizer) {
 			></tbody>
 		</table>
 		<div class="centered-div">
-			<img id="image" style="width:100%;max-width:256px;" src={ anubis.BasePrefix + "/.within.website/x/cmd/anubis/static/img/pensive.webp?cacheBuster=" + anubis.Version }/>
+			<img id="image" style="width:100%;max-width:256px;" src={ anubis.BasePrefix + "/.within.website/x/cmd/anubis/static/img/pensive.jpeg?cacheBuster=" + anubis.Version }/>
 			<p id="status" style="max-width:256px">{ localizer.T("loading") }</p>
 			<script async type="module" src={ anubis.BasePrefix + "/.within.website/x/cmd/anubis/static/js/bench.mjs?cacheBuster=" + anubis.Version }></script>
 			<div id="sparkline"></div>
